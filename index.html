@@ -1,0 +1,53 @@
+<!DOCTYPE html>  
+ <html lang="en">  
+ <head>  
+   <meta charset="UTF-8">  
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+   <title>Weather App</title>  
+   <!-- <link rel="stylesheet" href="style.css"> -->
+   <style>
+.whbody{  
+   /* margin: 0;   */
+   /* font-family: "Poppins", sans-serif;   */
+   background-color:linear-gradiet(300deg, #757b87, #909d9d);  
+   /* display: flex;   */
+   /* justify-content: center;   */
+   align-items: center;  
+   /* min-height: 100vh;   */
+   /* flex-direction: column;   */
+ } 
+
+
+ input{  
+   padding: 1rem;  
+   border-radius: 25px;  
+   border: none;  
+   background-color: #fff;  
+   font-family: inherit;  
+   box-shadow: 0 4px 10px rgba(0,0,0,0.2);  
+   min-width: 300px;  
+   font-size: 1rem;  
+ }  
+
+ button{
+     margin-left: 10px;
+     margin-top: 10px;
+     font-size: 30px;
+     color: white;
+     background-color: orange;
+     border-radius: 20px;
+     box-shadow: #323233 0px 0px 5px 1px;
+ }
+   </style>  
+ </head>  
+ <body>  
+<div class="whbody">
+  <form action="/" method="post">
+      <input type="text" required name="cityName" placeholder="Search By Loaction" autocomplete="off">  
+      <button type="submit">Search</button>
+ </form>  
+</div>
+
+ </body>  
+ </html>  
