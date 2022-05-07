@@ -23,7 +23,7 @@ app.post("/",function (req,res) {
     // console.log("...");
 
     const query = req.body.cityName; 
-const appid = "Your API Key";
+const appid = "f2d4b9a90dd8027c0e1fd5823f458d9d";
 const url = "https://api.openweathermap.org/data/2.5/weather?q="+query+"&appid="+appid+"&units=metric";
 
 // -------------Calling API with the help of https method which is available in node modules 
